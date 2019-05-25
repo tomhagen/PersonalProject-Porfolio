@@ -1,0 +1,86 @@
+@import '../scss/variables.scss';
+
+.about__container{
+    background-color: $secondaryColor;
+    height: 700px;
+        
+    .wrap__text{
+        width: 90%;
+        p{
+            font-size: 170px;
+            color: $bigTextColor;
+            font-weight: 700;
+            letter-spacing: -10px;
+            line-height: 190px;
+            text-align: right;
+        }
+    }
+    .wrap__content{
+        width: 86%;
+        margin: auto;
+        .wrap__item{
+            .item__time{
+                color: $primaryColor;
+                font-size: 25px;
+                font-weight: bold;
+                
+            }
+            .item__line{
+                background-color: #4e4b5b;
+                height: 1px;
+                width: 100%;
+                margin: 10px 0 30px 0;
+            }
+            .item__content{
+                margin: 40px 0;
+                .item__content__title{
+                    color: white;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+                .item__content__subtitle{
+                    color: #D8d5d5;
+                    font-size: 14px;
+                    margin-top: 4%;
+                    font-weight: 300;
+                    line-height: 22px;
+                    letter-spacing: 0;
+                }
+            }
+        }
+    }
+}
+
+// REPSONSIVE
+@media screen and (max-width:993px){
+    .about__container{
+        margin-top: -11%;
+        .wrap__text{
+            p{
+                font-size: 130px;
+
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .about__container{
+        height: 1100px;
+        .wrap__text{
+            padding-top: 10%;
+        }
+    }
+}
+
+@media screen and (max-width:576px){
+    .about__container{
+        margin-top: -12%;
+        height: 1700px;
+        .wrap__text{
+            p{
+                font-size: 110px;
+
+            }
+        }
+    }
+}

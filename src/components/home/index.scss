@@ -1,0 +1,132 @@
+
+
+@import '../scss/variables.scss';
+
+
+.home__container{
+    background-image: url('../../img/background-h2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1010px;
+    display: flex;
+    flex-wrap: wrap;
+    .home__container__left{
+        width: 52%;
+        padding: 5% 0 0 7%;
+        .left__title{
+            h2{
+                font-size: 75px;
+                letter-spacing: -3px;
+                color: white;
+                font-weight: 600;
+            }
+        }
+        .left__content{
+            p{
+                color: white;
+                font-size: 20px;
+                
+                line-height: 33px;
+            }
+        }
+        .left__hiring{
+            margin-top: 50px;
+            p:nth-child(1){
+                color: white;
+                color: 16px;
+                font-weight: bold;
+            }
+            p:nth-child(2){
+                color: $primaryColor;
+                color: 16px;
+                margin-top: 10px;
+                font-weight: bold;
+            }
+            i{
+                color: white;
+                font-size: 51px;
+                margin-top: 34px;
+                margin-left: 10px;
+            }
+        }
+        
+    }
+
+    .home__container__right{
+        max-width: 600px;
+        
+        margin-left: 4%;
+        // padding: 5% 0 0 7%;
+    }
+}
+
+// RESPONSIVE
+    
+
+@media screen and (max-width:1267px){
+    .home__container{
+
+        .home__container__left{
+            width: 48%;
+        }
+        .home__container__right{
+            margin-left: 0;
+        }
+    }
+
+}
+@media screen and (max-width: 1171px){
+    .home__container{
+        .home__container__left{
+            width: 74%;
+        }
+    }
+    .home__container__right{
+        img{
+            max-width: 540px;
+            margin-left: 62%;
+            margin-top: -23%;
+            margin-bottom: 10%;
+        }
+    }
+
+}
+
+@media screen and (max-width: 993px){
+    .home__container{
+        .home__container__left{
+            .left__title{
+                h2{
+                    font-size: 60px;
+                }
+            }
+        }
+    }.home__container__right{
+        img{
+            max-width: 400px;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .home__container{
+        .home__container__left{
+            .left__title{
+                h2{
+                    font-size: 40px;
+                }
+            }
+            .left__content{
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }.home__container__right{
+        img{
+            max-width: 300px;
+            margin-left: 86%;
+            margin-top: -58%;
+        }
+    }
+}

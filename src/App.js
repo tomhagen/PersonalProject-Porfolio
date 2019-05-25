@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// https://bridge236.qodeinteractive.com/#about
+
+import React, { Component, Fragment } from 'react';
+import './App.scss';
+import Home from './components/home';
+import Project from './components/project';
+import AboutMe from './components/about-me';
+import Cooperation from './components/cooperation';
+import Clients from './components/clients';
+import Social from './components/social';
+import Award from './components/award';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+
+      <Home/>
+      <Project/>
+      <AboutMe/>
+      <Cooperation/>
+      <Clients/>
+      <Social/>
+      <Award/>
+    </Fragment>
   );
 }
 

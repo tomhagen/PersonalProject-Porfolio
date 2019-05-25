@@ -1,0 +1,112 @@
+@import '../scss/variables.scss';
+
+.project__container{
+    background-color: $secondaryColor;
+    height: 1100px;
+    
+    .wrap__text{
+        width: 90%;
+        p{
+            font-size: 170px;
+            color: $bigTextColor;
+            font-weight: 700;
+            letter-spacing: -10px;
+            line-height: 190px;
+            text-align: right;
+        }
+    }
+    .wrap__img{
+        width: 90%;
+        .row{
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            .wrap__img__left{
+                overflow: hidden;
+                .container-fluid{
+                    padding-right: 0px !important;
+                    padding-left: 0px !important;
+                }
+                img{
+                    transition: all 1s ease-out                ;
+                    -webkit-transition: all 1s ease-out                ;
+                    -moz-transition: all 1s ease-out                ;
+                    -ms-transition: all 1s ease-out                ;
+                    -o-transition: all 1s ease-out                ;
+                }
+                img:hover{
+                    transform: scale(1.1);
+                    -webkit-transform: scale(1.1);
+                    -moz-transform: scale(1.1);
+                    -ms-transform: scale(1.1);
+                    -o-transform: scale(1.1);
+                    transition: all 1s ease-in ;
+                    -webkit-transition: all 1s ease-in ;
+                    -moz-transition: all 1s ease-in ;
+                    -ms-transition: all 1s ease-in ;
+                    -o-transition: all 1s ease-in ;
+                }
+            }
+            .wrap__img__right{
+               display: flex;
+               flex-direction: column;
+               overflow: hidden;
+               a{
+                   overflow: hidden;
+                   
+               }
+                img{
+                    transition: all 1s ease-out                ;
+                    -webkit-transition: all 1s ease-out                ;
+                    -moz-transition: all 1s ease-out                ;
+                    -ms-transition: all 1s ease-out                ;
+                    -o-transition: all 1s ease-out                ;
+}
+                img:hover{
+                    transform: scale(1.1);
+                    -webkit-transform: scale(1.1);
+                    -moz-transform: scale(1.1);
+                    -ms-transform: scale(1.1);
+                    -o-transform: scale(1.1);
+                    transition: all 1s ease-in ;
+                    -webkit-transition: all 1s ease-in ;
+                    -moz-transition: all 1s ease-in ;
+                    -ms-transition: all 1s ease-in ;
+                    -o-transition: all 1s ease-in ;
+                }
+                // .container-fluid{
+                //     padding-right: 0px !important;
+                //     padding-left: 0px !important;
+                // }
+             
+            }
+     
+        }
+    }
+}
+
+// RESPONSIVE
+@media screen and (max-width: 1171px){
+    .project__container{
+        padding-top: 24%;
+    }
+}
+@media screen and (max-width: 993px){
+    .project__container{
+        .wrap__text{
+            p{
+                font-size: 150px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .project__container{
+        padding-top: 0%;
+        height: 2100px;
+        .wrap__text{
+            p{
+                font-size: 120px;
+            }
+        }
+    }
+}
