@@ -72,6 +72,19 @@
         height: 1100px;
     }
 }
+@media screen and (max-width:683px){
+    .client__container{
+      
+
+        .wrap__text{
+            
+            p{
+                font-size: 144px;
+              
+            }
+        }
+    }
+}
 @media screen and (max-width:576px){
     .client__container{
         height: 2700px;
@@ -79,7 +92,7 @@
         .wrap__text{
             
             p{
-                font-size: 140px;
+                font-size: 110px;
               
             }
         }

@@ -110,3 +110,13 @@
         }
     }
 }
+@media screen and (max-width: 576px){
+    .project__container{
+        height: 1500px;
+        .wrap__text{
+            p{
+                font-size: 110px;
+            }
+        }
+    }
+}

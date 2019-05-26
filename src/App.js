@@ -9,6 +9,8 @@ import Cooperation from './components/cooperation';
 import Clients from './components/clients';
 import Social from './components/social';
 import Award from './components/award';
+import Contact from './components/contact-me';
+import Copyright from './components/copyright';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Clients/>
       <Social/>
       <Award/>
+      <Contact/>
+      <Copyright/>
     </Fragment>
   );
 }

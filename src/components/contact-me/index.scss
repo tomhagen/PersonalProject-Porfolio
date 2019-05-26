@@ -1,0 +1,102 @@
+@import "../scss/variables.scss";
+
+.contact__container {
+  background-color: $secondaryColor;
+  height: 600px;
+
+  .wrap__text {
+    width: 80%;
+    margin: auto;
+    p {
+      font-size: 170px;
+      color: $bigTextColor;
+      font-weight: 700;
+      letter-spacing: -10px;
+      line-height: 190px;
+      text-align: left;
+    }
+  }
+  .hire__me {
+    width: 80%;
+    margin: auto;
+    h3 {
+      color: white;
+      font-size: 45px;
+      line-height: 50px;
+      font-weight: 700;
+      letter-spacing: -2px;
+    }
+    .underline {
+      background-color: $primaryColor;
+      width: 10%;
+      height: 5px;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .hire__me__content {
+      color: $smallTextColor;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22px;
+    }
+  }
+  .wrap__form {
+    width: 80%;
+    margin: auto;
+    .btn--send {
+      background-color: $primaryColor;
+      color: black !important;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 16px 42px;
+
+      &:hover {
+        background-color: white;
+      }
+    }
+  }
+}
+
+// REPONSIVE
+
+@media screen and (max-width: 1200px) {
+  .contact__container {
+    .wrap__text {
+      p {
+        font-size: 140px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 993px) {
+  .contact__container {
+    .wrap__text {
+      p {
+        font-size: 110px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .contact__container {
+        height: 750px;
+      .wrap__text {
+        p {
+          font-size: 90px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 612px) {
+    .contact__container {
+        
+      .wrap__text {
+        width: 100%;
+        margin: auto;
+        p {
+          font-size: 90px;
+        }
+      }
+    }
+  }

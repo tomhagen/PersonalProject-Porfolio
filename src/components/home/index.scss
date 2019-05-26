@@ -130,3 +130,26 @@
         }
     }
 }
+@media screen and (max-width: 576px){
+    .home__container{
+        .home__container__left{
+            .left__title{
+                h2{
+                    font-size: 40px;
+                }
+            }
+            .left__content{
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+        .home__container__right{
+            img{
+                max-width: 250px;
+                margin-left: 86%;
+                margin-top: -58%;
+            }
+        }
+    }
+}
