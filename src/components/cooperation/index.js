@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 class Cooperation extends Component {
     render() {
         return (
-            <div className="cooperation__container">
+            <div className="cooperation__container" id="cooperation">
                 <img style={{ paddingLeft: '0' }} className="container-fluid" src="./img/h1-img-1.jpg" />
                 <div className="img__overlay">
                     <h3>Cooperation <br/> With International <br/>Clients</h3>

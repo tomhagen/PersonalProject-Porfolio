@@ -1,0 +1,49 @@
+@import '../scss/variables.scss';
+
+.back-to-top{
+    position: fixed;
+    z-index: 100;
+    right: 19px;
+    bottom: 100px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    .circle{
+        width: 52px;
+        height: 52px;
+       line-height: 52px;
+        border-radius: 50%    ;
+        -webkit-border-radius: 50%    ;
+        -moz-border-radius: 50%    ;
+        -ms-border-radius: 50%    ;
+        -o-border-radius: 50%    ;
+        border-color: $primaryColor;
+        border-width: 2px;
+        border-style: solid;
+        background-color: rgba(0,0,0,0);
+
+        
+
+        i{
+            line-height: 52px;
+            color: $primaryColor;
+            font-size: 22px;
+           &:hover{
+               color: $smallTextColor;
+           }
+        }
+    }
+}
+.active{
+    visibility: visible;
+    opacity: 1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}

@@ -6,7 +6,7 @@ class Clients extends Component {
   
     render() {
         return (
-            <div className="client__container">
+            <div className="client__container" id="client">
                 <div className="wrap__text">
                     <p> &lt;clients&gt;</p>
                 </div>

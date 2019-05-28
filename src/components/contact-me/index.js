@@ -5,7 +5,7 @@ class Contact extends Component {
   render() {
     return (
       <Fragment>
-        <div className="contact__container">
+        <div className="contact__container" id="contact">
           <div className="wrap__text">
             <p> &lt; contact me &gt; </p>
           </div>

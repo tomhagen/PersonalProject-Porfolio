@@ -4,7 +4,7 @@ import './index.scss';
 class aboutMe extends Component {
   render() {
     return (
-      <div className="about__container">
+      <div className="about__container" id="about">
         <div className="wrap__text">
                 <p> &lt;about me &gt;</p>
         </div>

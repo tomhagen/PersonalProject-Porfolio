@@ -33,10 +33,10 @@ class Social extends Component {
                 <div className="wrap__img">
                     <img  src="./img/h-video-box.jpg" />
                     <span className="circle__center">
-                        <span className="rec__center"></span>
+                        <span className="rec__center" ></span>
                     </span>
                 </div>
-                
+                {/* <iframe className="iframe"  src="https://www.youtube.com/embed/ZJR8-KMamzQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
             </div>
         )
     }

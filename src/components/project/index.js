@@ -5,13 +5,13 @@ import wow from 'wow.js';
  class index extends Component {
   render() {
     return (
-      <div className="project__container">
+      <div className="project__container" id="project">
             <div className="wrap__text">
                 <p> &lt;projects &gt;</p>
             </div>
             <div className="wrap__img mx-auto">
                 <div className="row">
-                    <div className="col-xs-12 col-sm-12 col-md-8 col-lg-8 " data-aos="fade-up"  data-aos-anchor-placement="center-bottom"  data-aos-duration="1500" data-aos-delay="50">
+                    <div className="col-xs-12 col-sm-12 col-md-8 col-lg-8 wow bounceIn" >
                         <div className="wrap__img__left">
                             <a>
                                 <img className="container-fluid " src="./img/01.jpg"/>

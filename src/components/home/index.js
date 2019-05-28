@@ -7,7 +7,7 @@ class index extends Component {
     render() {
         return (
             <div className="home__container">
-                <Header />
+                
                 <div className="home__container__left">
                     <div className="left__title" data-aos="fade-down"  data-aos-easing="linear"  data-aos-duration="1500" data-aos-delay="50">
                         <h2 className="">
@@ -28,7 +28,7 @@ class index extends Component {
                     </div>
                 </div>
                 <div className="home__container__right" data-aos="fade-down"  data-aos-easing="linear"  data-aos-duration="500" data-aos-delay="550">
-                    <img className="container-fluid" src="./img/h1-img-2.jpg"/>
+                    <img className="container-fluid" src="./img/h1-img-2.png"/>
                 </div>
             </div>
         )
